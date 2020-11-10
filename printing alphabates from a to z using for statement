@@ -1,0 +1,9 @@
+#include<stdio.h>
+
+int main()
+{
+    char p;
+    for(p='A'; p<='Z'; ++p)
+     printf("%c",p);
+return 0;
+}
