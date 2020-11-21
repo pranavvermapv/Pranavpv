@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+    
+    int a, cube;
+    
+    printf("enter the number for getting its cube value : ");
+    scanf("%d",&a);
+    
+    cube=a*a*a;
+    
+    printf("The cube value of number %d is %d" ,a, cube);
+    scanf("%d",&cube);
+    
+    return 0;
+}
