@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, remainder,product=1;
+    
+    printf("enter the number : ");
+    scanf("%d",&a);
+    
+    while(a!=0)
+    {
+        remainder=a%10;
+        product=product*remainder;
+        a=a/10;
+    }
+    
+    printf("the sum of the digits in the number is %d ",product);
+    return 0;
+}
