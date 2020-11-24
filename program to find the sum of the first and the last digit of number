@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, first, last, sum;
+    
+    printf("enter the number : ");
+    scanf("%d",&a);
+    
+    last=a%10;
+    
+    while(a>=10)
+    {
+        a=a/10;
+    }
+    
+    first=a;
+    
+    sum= last + first;
+    
+    printf("the first digit :%d and last digit :%d\n ",first, last);
+    printf("the sum of first and last digit of number is %d",sum);
+    return 0;
+}
