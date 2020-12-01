@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int n, sum = 0, temporary, remainder;
+    printf("enter the number : ");
+    scanf("%d",&n);
+    temporary = n;
+    
+    while(n>0)
+    {
+        remainder = n % 10;
+        sum = sum*10 +remainder;
+        n = n/10;
+    }
+    if(temporary==sum)
+    printf("This is Palindrome number");
+    else
+    printf("This is not Palindrome number");
+    
+    return 0;
+
+}
